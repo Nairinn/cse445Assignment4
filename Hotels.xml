@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.5">
     <Name>Hilton Garden Inn Phoenix Downtown</Name>
     <Phone>602-343-0006</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>15</Number>
       <Street>E Monroe St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -32,105 +31,24 @@
     <Name>Hyatt Regency Scottsdale Resort</Name>
     <Phone>480-444-1234</Phone>
     <Phone>888-591-1234</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>7500</Number>
       <Street>E Doubletree Ranch Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85258</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="3.8">
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>601</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Omni Scottsdale Resort &amp; Spa</Name>
-    <Phone>480-627-3200</Phone>
-    <Address>
-      <Number>4949</Number>
-      <Street>E Lincoln Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85253</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
-    <Address>
-      <Number>225</Number>
-      <Street>E Apache Blvd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Residence Inn Phoenix Downtown</Name>
-    <Phone>602-603-2000</Phone>
-    <Address>
-      <Number>132</Number>
-      <Street>S Central Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>Canopy by Hilton Scottsdale Old Town</Name>
-    <Phone>480-590-3864</Phone>
-    <Address>
-      <Number>7142</Number>
-      <Street>E 1st St</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85251</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.7">
-    <Name>JW Marriott Desert Ridge Resort</Name>
-    <Phone>480-293-5000</Phone>
-    <Phone>888-236-2427</Phone>
-    <Address>
-      <Number>5350</Number>
-      <Street>E Marriott Dr</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85054</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Aloft Tempe</Name>
-    <Phone>480-621-3300</Phone>
-    <Address>
-      <Number>951</Number>
-      <Street>E Playa Del Norte Dr</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
