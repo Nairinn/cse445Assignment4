@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Root name changed from Hotels to Hotel to trigger error #1 -->
+<!-- (1) Root element changed from Hotels to Hotel -->
 <Hotel>
 
-  <!-- (2) Missing required attribute: remove Rating where it is required in your schema -->
+  <!-- (2) Missing required attribute: Rating -->
   <Hotel>
     <Name>Faulty Westin</Name>
 
     <!-- (3) Missing a Phone element -->
-    <!-- no Phone tag here -->
+    <!-- no <Phone> tag here -->
 
     <Address>
       <Number>11</Number>
@@ -19,7 +19,7 @@
     </Address>
   </Hotel>
 
-  <!-- (4) Unclosed Address tag -->
+  <!-- (4) Address missing required child element "NearestAirport" (schema violation, not syntax break) -->
   <Hotel Rating="4.2">
     <Name>Broken Address Hotel</Name>
     <Phone>480-123-4567</Phone>
@@ -29,8 +29,8 @@
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85001</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
-    <!-- address tag missing its closing tag -->
+      <!-- Missing <NearestAirport> element on purpose -->
+    </Address>
   </Hotel>
 
   <!-- (5) Two Name elements -->
